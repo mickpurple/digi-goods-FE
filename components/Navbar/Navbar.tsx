@@ -88,11 +88,6 @@ export const Navbar: FC<NavbarProps> = ({ items, classes }: NavbarProps) => {
           <div className=" px-[20px] md:px-[65px] max-w-[1800px] mx-auto  flex justify-between items-center h-full">
             <div className="h-full flex items-center">
               <Link href={"/"}>
-                {/* <img
-                src="/images/logo.png"
-                alt="Chaturvedi Cargo Care"
-                className="w-[104px] md:w-[170px]"
-              /> */}
                 <p className="text-4xl font-black text-[#EEEEEE]">
                   DIGI<span className="text-[#C73659]">GOODS</span>
                 </p>
