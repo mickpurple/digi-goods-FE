@@ -123,7 +123,9 @@ export const Navbar: FC<NavbarProps> = ({ items, classes }: NavbarProps) => {
               className="md:hidden h-full flex items-center px-[20px]"
               onClick={() => setOpenMenu(!openMenu)}
             >
-              <p className="text-[#C73659] font-black cursor-pointer">///</p>
+              <p className="text-[#C73659] font-black cursor-pointer">
+                {"///"}
+              </p>
             </div>
           </div>
         </div>
